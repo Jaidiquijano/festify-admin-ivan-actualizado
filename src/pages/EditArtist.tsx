@@ -138,7 +138,7 @@ export default function EditArtist(){
         </>
     }
 
-    const handleSubmitForm = async (e:React.FormEvent<HTMLFormElement>) =>{
+    const handleSubmitForm = async (e:React.FormEvent<HTMLButtonElement>) =>{
         e.preventDefault();
         if (!id){
             return;
